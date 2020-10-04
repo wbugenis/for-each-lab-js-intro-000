@@ -6,4 +6,6 @@
  
  function iterate(callback) {
    var arr = [1, 2, 3];
-   arr.forEach(callback)
+   arr.forEach(callback);
+   return arr;
+ }
